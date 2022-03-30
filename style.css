@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.head_block{
+   width: 100%;
+
+}
+
+.white{
+    color: white;
+}
+
+main{
+    margin: 50px 10px;
+    width: 1200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.bb{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+
+    justify-content: center;
+
+}
+
+
+.hah{
+    width: 100%;
+
+
+}
+
+.border-xc{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.cl4{
+    width: 33.3%;
+    margin: 0 15px 0 0;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.b{
+    width: 100%;
+    height: 100%;
+}
+
+.col-6-tablet{
+    width: 600px;
+    height: 400px;
+    margin: 10px 0;
+}
+
+
+.bt_blue{
+    border: none;
+    background-color: #0a53be;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 40px 20px;
+
+}
+
+.xc{
+    font-size: 18px;
+}
+
+.col-12{
+    width: 100%;
+    height: 100px;
+}
+
+.grey_block{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.cl12{
+    margin: 10px 0;
+    height: 100px;
+    width: 100%;
+}
+
+.clrwh{
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .col-12-laptop{
+        width: 600px;
+    }
+    .xc{
+        font-size: 16px;
+    }
+
+    .text{
+        padding: 20px 10px;
+    }
+
+    .cl4{
+        width: 100%;
+        margin: 10px;
+
+    }
+
+}
+
+@media (max-width: 1250px) {
+    .cl12{
+        height: 80px;
+    }
+    .cl4{
+        width: 50%;
+        margin: 10px;
+    }
+    .bb{
+        flex-flow: wrap row;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cl12{
+        height: 60px;
+    }
+
+
+}
+
+@media (min-width: 1600px) {
+
+    .white{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .col-12-mobile {
+        width: 500px;
+        height: 300px;
+    }
+    .xc{
+        font-size: 14px;
+    }
+    main{
+        margin: 40px 10px;
+    }
+
+    .text{
+        padding: 10px;
+    }
+    .grey_block{
+        margin: 0;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .col-12-lt{
+        width: 300px;
+        height: 250px;
+    }
+    .xc{
+        font-size: 12px;
+    }
+    .bt_blue{
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+    main{
+        margin: 10px 10px;
+    }
+    .cl12{
+        height: 50px;
+    }
+
+}
